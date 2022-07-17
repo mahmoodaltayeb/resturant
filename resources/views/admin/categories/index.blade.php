@@ -6,7 +6,6 @@ categories
 categories
 @endsection
 @section('body')
-
 <div class="row">
   <div class="col-12">
     <div class="card my-4">
@@ -41,28 +40,28 @@ categories
                   <p class="text-sm font-weight-bold mb-0">{{$category->name}}</p>
                 </td>
                 <td class="align-middle">
-                      <div class="d-flex justify-content-center ">
-                          <div>
-                          <a href="{{ route('categories.edit',$category->id)}}" class="" data-toggle="tooltip" data-original-title="Edit user">
-                           <i class="material-icons ms-auto text-dark cursor-pointer" data-bs-toggle="tooltip" data-bs-placement="top" title="  Edit">edit</i>
-                          </a></div>
+                  <div class="d-flex justify-content-center ">
+                    <div>
+                      <a href="{{ route('categories.edit',$category->id)}}" class="" data-toggle="tooltip" data-original-title="Edit user">
+                       <i class="material-icons ms-auto text-dark cursor-pointer" data-bs-toggle="tooltip" data-bs-placement="top" title="  Edit">edit</i>
+                     </a></div>
 
-                             <div>
-                            <a href="" class="" data-toggle="tooltip" data-original-title="delete user">
-                           <i class="material-icons ms-auto text-dark cursor-pointer" data-bs-toggle="tooltip" data-bs-placement="top" title="delete ">delete</i></div>
-                          </a>
-                        </div>
-                      </td>
-                    </tr>
-                    @endforeach
-                    <tr>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      @endsection
+                     <div>
+                      <a href="" class="" data-toggle="tooltip" data-original-title="delete user">
+                       <i class="material-icons ms-auto text-dark cursor-pointer" data-bs-toggle="tooltip" data-bs-placement="top" title="delete ">delete</i></div>
+                     </a>
+                   </div>
+                 </td>
+               </tr>
+               @endforeach
+               <tr>
+               </tr>
+             </tbody>
+           </table>
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
+ @endsection
 
