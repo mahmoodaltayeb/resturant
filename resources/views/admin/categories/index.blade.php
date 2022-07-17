@@ -44,24 +44,24 @@ categories
                     <div>
                       <a href="{{ route('categories.edit',$category->id)}}" class="" data-toggle="tooltip" data-original-title="Edit user">
                        <i class="material-icons ms-auto text-dark cursor-pointer" data-bs-toggle="tooltip" data-bs-placement="top" title="  Edit">edit</i>
-                     </a></div>
-
-                     <div>
-                      <a href="" class="" data-toggle="tooltip" data-original-title="delete user">
-                       <i class="material-icons ms-auto text-dark cursor-pointer" data-bs-toggle="tooltip" data-bs-placement="top" title="delete ">delete</i></div>
                      </a>
                    </div>
-                 </td>
-               </tr>
-               @endforeach
-               <tr>
-               </tr>
-             </tbody>
-           </table>
-         </div>
+                   <div>
+                    <a href="" class="" data-toggle="tooltip" data-original-title="delete user">
+                     <i class="material-icons ms-auto text-dark cursor-pointer" data-bs-toggle="tooltip" data-bs-placement="top" title="delete ">delete</i></div>
+                   </a>
+                 </div>
+               </td>
+             </tr>
+             @endforeach
+             <tr>
+             </tr>
+           </tbody>
+         </table>
        </div>
      </div>
    </div>
  </div>
- @endsection
+</div>
+@endsection
 
